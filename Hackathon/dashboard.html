@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar my-nav">
+        <div class="container">
+            <a class="navbar-brand nav-text">Personal Blogging App</a>
+            <div class="d-flex">
+                <a class="navbar-brand nav-text" id="my-user" href="profile.html"></a>
+                <a id="logout-btn" class=" navbar-brand nav-text " href="">Sign Out</a>
+            </div>
+        </div>
+    </nav>
+    <div class=" container ">
+        <h1>
+            Dashboard
+        </h1>
+    </div>
+    <div class=" my-h1 container-fluid dash ">
+        <div class=" container mt-4 ">
+            <div class=" input-main">
+                <div class=" mt-4">
+                    <div>
+                        <input type="text" id="topic" class="form-control" placeholder="Topic..." aria-label="Username"
+                            aria-describedby="basic-addon1">
+
+                        <textarea id="blog" class="form-control mt-4 text-area" aria-label="With textarea"
+                            placeholder="What is in Your Mind..."></textarea>
+                        <div class="mt-4">
+                            <button class="btn btn-primary" id="publish" type="button">Publish Blog</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h3>My Blogs</h3>
+            </div>
+            <div id="main-Box">
+                <div class="container blog-1 ">
+                    <div class="container mcard ">
+                        <div class="main-card"  id="main-card">
+                   
+                        </div>
+
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                            crossorigin="anonymous"></script>
+                        <script type="module" src="app.js"></script>
+
+
+</body>
+
+</html>
